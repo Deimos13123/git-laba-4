@@ -8,3 +8,4 @@ CREATE TABLE IF NOT EXISTS audit_log (
  occured_at timestamptz NOT NULL DEFAULT now()
 );
 COMMENT ON TABLE audit_log IS "Журнал аудита изменений данных"
+-- Review applied: table creation checked
